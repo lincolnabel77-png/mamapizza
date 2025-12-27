@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mama Pizza Ypsilanti | Curry Fusion & Indian Pizza</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; }
+  body { background:#fffaf4; color:#222; }
+
+  /* NAV */
+  nav { background:#e63946; padding:15px 10%; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; }
+  nav .logo { font-size:1.8rem; color:white; font-weight:600; }
+  nav a { color:white; margin-left:20px; text-decoration:none; font-weight:500; }
+  nav a:hover { opacity:0.8; }
+
+  /* HERO */
+  .hero { background:url('YOUR_BIG_PIZZA_PHOTO.jpg') center/cover no-repeat; height:85vh; display:flex; justify-content:center; align-items:center; text-align:center; color:white; padding:0 20px; }
+  .hero h1 { font-size:3rem; margin-bottom:10px; text-shadow:2px 2px 8px rgba(0,0,0,0.6); }
+  .hero p { font-size:1.3rem; margin-bottom:20px; }
+  .btn { background:#e63946; color:white; padding:14px 32px; border-radius:30px; text-decoration:none; font-weight:600; transition:0.3s; }
+  .btn:hover { background:#c92c3a; }
+
+  /* SECTIONS */
+  section { padding:60px 10%; }
+  h2 { font-size:2.4rem; margin-bottom:20px; color:#e63946; text-align:center; }
+
+  /* MENU GRID */
+  .menu-grid { display:grid; gap:30px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+  .menu-card { background:white; border-radius:15px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.1); }
+  .menu-card img { width:100%; height:180px; object-fit:cover; }
+  .menu-info { padding:15px; text-align:center; }
+  .menu-info h3 { color:#e63946; margin-bottom:10px; }
+
+  /* GALLERY */
+  .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:15px; }
+  .gallery img { width:100%; border-radius:8px; object-fit:cover; }
+
+  /* LOCATION */
+  .location iframe { width:100%; height:280px; border:none; border-radius:12px; }
+
+  footer { background:#111; color:#bbb; text-align:center; padding:20px 0; font-size:0.9rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Mama Pizza Ypsi</div>
+  <div>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <h1>Authentic Curry Fusion Pizza</h1>
+    <p>Unique Indian-Fusion Menu | Halal & Veg Options</p>
+    <a href="https://mamapizza1.com/order" class="btn">Order Online</a>
+    <a href="#menu" class="btn" style="margin-left:12px;">View Menu</a>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Our Popular Pizzas</h2>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <img src="PANEER_TIKKA_PHOTO.jpg" alt="Paneer Tikka Masala Pizza">
+      <div class="menu-info">
+        <h3>Paneer Tikka Masala</h3>
+        <p>Rich spiced sauce | Veg delight</p>
+      </div>
+    </div>
+    <div class="menu-card">
+      <img src="SAMOSA_PIZZA_PHOTO.jpg" alt="Samosa Pizza">
+      <div class="menu-info">
+        <h3>Samosa Pizza</h3>
+        <p>Crispy samosa meets pizza crust</p>
+      </div>
+    </div>
+    <div class="menu-card">
+      <img src="CLASSIC_PEPPERONI_PHOTO.jpg" alt="Classic Pepperoni">
+      <div class="menu-info">
+        <h3>Classic Pepperoni</h3>
+        <p>Traditional favorite with halal pepperoni</p>
+      </div>
+    </div>
+    <!-- add more items as needed -->
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="GALLERY1.jpg" alt="Pizza Photo">
+    <img src="GALLERY2.jpg" alt="Restaurant Photo">
+    <img src="GALLERY3.jpg" alt="Customers Dining">
+    <img src="GALLERY4.jpg" alt="Food Spread">
+  </div>
+</section>
+
+<section id="location">
+  <h2>Find Us</h2>
+  <div class="location">
+    <iframe src="https://www.google.com/maps/embed?YOUR_EMBED_CODE" allowfullscreen></iframe>
+    <p style="text-align:center; margin-top:12px;">
+      📍 5 N Hamilton St, Ypsilanti, MI 48197<br>
+      📞 (734) 896-3843
+    </p>
+  </div>
+</section>
+
+<section id="contact" style="text-align:center;">
+  <h2>Contact</h2>
+  <p>Mon–Fri: 11AM–9PM | Sat–Sun: 12PM–9PM | Closed Tue</p>
+  <p><a href="tel:+17348963843" class="btn">Call Now</a></p>
+  <p><a href="https://mamapizza1.com/order" class="btn">Order Online</a></p>
+  <div style="margin-top:15px;">
+    <!-- Add social links -->
+    <a href="https://facebook.com" style="margin:0 8px;">Facebook</a>
+    <a href="https://instagram.com" style="margin:0 8px;">Instagram</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Mama Pizza Ypsilanti • All Rights Reserved
+</footer>
+
+</body>
+</html>
